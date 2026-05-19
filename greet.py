@@ -1,7 +1,7 @@
 """Tiny politely greeting helpers used to practice atomic commits."""
 
 def greet(name: str) -> str:
-    return f"Greetings, {name}."
+    return f"Hey Greetings, {name}."
 
 def shout(name: str) -> str:
     return greet(name).upper()
