@@ -1,6 +1,6 @@
 """Tiny politely greeting helpers used to practice atomic commits."""
 
-def greet(name: str) -> str:
+def greet(name: str | None = None) -> str | None:
     return f"Hey Greetings, {name}."
 
 def shout(name: str) -> str:
