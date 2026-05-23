@@ -1,0 +1,9 @@
+# Default owner — catches anything not matched below
+*                @shivansh2806
+
+# Python source — owned by you (the "greet" maintainer)
+*.py             @shivansh2806
+
+# Docs and meta files
+README.md        @shivansh2806
+/.github/        @shivansh2806
